@@ -35,7 +35,7 @@ springdoc:
   show-actuator: true
 
 cards:
-  message: "Welcome to EazyBank cards related local APIs "
+  message: "Welcome to cards related local APIs "
   contactDetails:
     name: "John Doe - Developer"
     email: "john@eazybank.com"
