@@ -1,0 +1,44 @@
+#server:
+#  port: 8090
+#  servlet:
+#    context-path: /loans
+#
+#spring:
+#  application.name: loans
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password: ''
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#  config:
+#    import:
+#      - "loans-qa.yaml"
+#      - "loans-prod.yaml"
+#  profiles:
+#    active:
+#      - "qa"
+
+build:
+  version: "3.0"
+
+springdoc:
+  swagger-ui.path: /swagger-ui.html
+  api-docs.path: /api-docs
+  show-actuator: true
+
+loans:
+  message: "Welcome to EazyBank loans related local APIs "
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john@eazybank.com"
+  onCallSupport:
+    - (123) 234-123
+    - (123) 234-123
