@@ -6,7 +6,7 @@
 build:
   version: "1.0"
 
-accounts:
+cards:
   message: "Welcome to EazyBank cards related production APIs "
   contactDetails:
     name: "Reine Aishwarya - Product Owner"
